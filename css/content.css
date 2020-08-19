@@ -1,0 +1,44 @@
+.data-container {
+    flex-grow: 1;
+    display: flex;
+}
+
+.data-container .left-charts, .data-container .right-messages {
+    width: 25%;
+}
+
+.data-container .main-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* background: url('../images/center-map.png') no-repeat; */
+}
+
+.data-container .main-content .top-block {
+    flex-grow: 1;
+    display: flex;
+}
+
+.data-container .main-content .bottom-block {
+    min-height: 160px;
+    border:1px red solid;
+}
+
+.data-container .right-messages {
+    background: url('../images/right-bg.png') no-repeat;
+}
+
+.data-container .left-charts {
+    background: url('../images/left-bg.png') no-repeat;
+}
+
+.main-charts-container {
+    width: 23%;
+}
+
+.map-container {
+    margin-top: 10vh;
+    flex: 1;
+    background: url('../images/center-map.png') no-repeat;
+    -webkit-background-size: 100% 100%;
+}
